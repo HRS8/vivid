@@ -8,6 +8,9 @@ import seven from "./7.jpg";
 import eight from "./8.jpg";
 import nine from "./9.jpg";
 import ten from "./10.jpg";
+import eleven from "./11.jpg";
+import twelve from "./12.jpg";
+import thirteen from "./13.jpg";
 
 function Gallery() {
     return (
@@ -26,7 +29,7 @@ function Gallery() {
                 </div>
                 <div className="grid gap-4">
                     <div>
-                        <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg" src={eleven} alt="" />
                     </div>
                     <div>
                         <img className="h-auto max-w-full rounded-lg" src={four} alt="" />
@@ -43,7 +46,7 @@ function Gallery() {
                         <img className="h-auto max-w-full rounded-lg" src={nine} alt="" />
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
+                        <img className="h-auto max-w-full rounded-lg" src={twelve} alt="" />
                     </div>
                 </div>
                 <div className="grid gap-4">
@@ -54,7 +57,7 @@ function Gallery() {
                         <img className="h-auto max-w-full rounded-lg" src={five} alt="" />
                     </div>
                     <div>
-                        <img className="h-auto max-w-full rounded-lg" src={one} alt="" />
+                        <img className="h-auto max-w-full rounded-lg" src={thirteen} alt="" />
                     </div>
                 </div>
             </div>
