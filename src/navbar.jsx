@@ -25,7 +25,7 @@ function NAV({ setPage }) {
             <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
                     <a href="#" onClick={() => setPage("home")} className="text-black bg-white no-underline hover:text-black bg-white focus:text-black bg-white">
-                        VIVID
+                        VIVID CONCEPTS
                         {/*<img
                             className="w-auto h-6 sm:h-7"
                             src="https://merakiui.com/images/full-logo.svg"
@@ -36,11 +36,11 @@ function NAV({ setPage }) {
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className="text-black bg-white hover:text-gray-600 focus:outline-none focus:text-gray-600"
+                            className="text-black !bg-white hover:text-gray-600 focus:outline-none focus:text-gray-600"
                             aria-label="toggle menu"
                         >
                             {/* Hamburger icon */}
-                            <svg className="w-6 h-6 text-black bg-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                            <svg className="w-6 h-6 text-black !bg-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         </button>
@@ -54,25 +54,25 @@ function NAV({ setPage }) {
                 >
                     <div className="flex flex-col md:flex-row md:mx-6">
                         <button
-                            className="my-2 text-black bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
+                            className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
                             onClick={() => setPage("home")}
                         >
                             Home
                         </button>
                         <button
-                            className="my-2 text-black bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
+                            className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
                             onClick={() => setPage("gallery")}
                         >
                             Gallery
                         </button>
                         <button
-                            className="my-2 text-black bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
+                            className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
                             onClick={() => setPage("about")}
                         >
                             About
                         </button>
                         <button
-                            className="my-2 text-black bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
+                            className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
                             onClick={() => setPage("contact")}
                         >
                             Contact

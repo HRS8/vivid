@@ -11,13 +11,12 @@ function Contact() {
                         <h2 class="text-black font-manrope text-4xl font-semibold leading-10 mb-5 md:text-left text-center">Get In Touch</h2>
                         <p class="text-gray-600 text-lg font-normal leading-7 mb-7 md:text-left text-center">Whether you have a concern or simply want to say hello, We are here to facilitate communication with you.</p>
                         <div class="flex md:items-center md:justify-start justify-center">
-                            <button class="w-36 h-12 rounded-full bg-indigo-600 transition-all duration-700 hover:bg-indigo-800 shadow text-white text-center text-base font-semibold leading-6">Contact Us</button>
                         </div>
                     </div>
                     <div class="border-l-2 md:border-indigo-600 border-white px-10 py-6">
                         <div class="mb-8">
                             <h6 class="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">Email Address</h6>
-                            <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">vivid@gmail.com</h3>
+                            <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">vividconcepts9@gmail.com </h3>
                         </div>
                         <div>
                             <h6 class="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">Phone Number</h6>
@@ -31,7 +30,7 @@ function Contact() {
                         <img src={hyd} alt="United Kingdom image" class="w-full h-full object-cover"/>
                             <div class="absolute bottom-0 mb-6 text-center px-6">
                                 <h5 class="text-white text-lg font-semibold leading-7 mb-2">Hyderabad</h5>
-                            <p class="text-white text-base font-medium leading-6">604, Sri Balaji Gulmohar Township,<br />Kausalya Colony, Bachupally<br />+91 9959833456</p>
+                            <p class="text-white text-base font-medium leading-6">604, Sri Balaji Gulmohar Township,<br />Kausalya Colony, Bachupally<br />+91 8125345656</p>
                             </div>
                     </div>
                     <div class="h-96 relative flex justify-center">
