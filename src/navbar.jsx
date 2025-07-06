@@ -24,7 +24,7 @@ function NAV({ setPage }) {
         >
             <div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex items-center justify-between">
-                    <a href="#" onClick={() => setPage("home")} className="text-black bg-white no-underline hover:text-black bg-white focus:text-black bg-white">
+                    <a href="#" onClick={() => setPage("home")} className="text-black no-underline hover:text-black  focus:text-black bg-white">
                         VIVID CONCEPTS
                         {/*<img
                             className="w-auto h-6 sm:h-7"
@@ -55,25 +55,25 @@ function NAV({ setPage }) {
                     <div className="flex flex-col md:flex-row md:mx-6">
                         <button
                             className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
-                            onClick={() => setPage("home")}
+                            onClick={() => {setPage("home"); setIsOpen(false);}}
                         >
                             Home
                         </button>
                         <button
                             className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
-                            onClick={() => setPage("gallery")}
+                            onClick={() => {setPage("gallery"); setIsOpen(false);}}
                         >
                             Gallery
                         </button>
                         <button
                             className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
-                            onClick={() => setPage("about")}
+                            onClick={() => {setPage("about"); setIsOpen(false);}}
                         >
                             About
                         </button>
                         <button
                             className="my-2 text-black !bg-white transition-colors duration-300 transform hover:text-blue-500 md:mx-4 md:my-0 border-none"
-                            onClick={() => setPage("contact")}
+                            onClick={() => {setPage("contact") ; setIsOpen(false);}}
                         >
                             Contact
                         </button>

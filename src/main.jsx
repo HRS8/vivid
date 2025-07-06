@@ -20,7 +20,7 @@ function App() {
         {page === "contact" && <Contact />}
         {page === "gallery" && <Gallery />}
       </div>
-      <Footer />
+      <Footer setPage={setPage} />
     </div>
   );
 }

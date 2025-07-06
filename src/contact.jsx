@@ -20,7 +20,7 @@ function Contact() {
                         </div>
                         <div>
                             <h6 class="text-gray-500 text-sm font-medium leading-5 pb-3 md:text-start text-center">Phone Number</h6>
-                            <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">+91 7019816343</h3>
+                            <h3 class="text-black text-xl font-semibold leading-8 md:text-start text-center">+91 8125345656</h3>
                         </div>
                     </div>
                 </div>

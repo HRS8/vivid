@@ -1,8 +1,8 @@
 import React from "react";
 
-function Footer() {
+function Footer({ setPage }) {
     return (
-        <footer className="w-full bg-[#fdf6ee] text-amber-900 py-6 shadow-inner bg-white rounded-lg shadow-sm dark:bg-gray-800">
+        <footer className="w-full text-amber-900 py-6 shadow-inner bg-white rounded-lg dark:bg-gray-800">
             <div className="w-full mx-auto max-w-screen-xl p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
                 {/* Company Name (left, unchanged) */}
                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
@@ -15,13 +15,13 @@ function Footer() {
                         <h3 className="font-bold mb-2">Links</h3>
                         <ul className="flex flex-col gap-1 text-sm font-medium text-gray-500 dark:text-gray-400">
                             <li>
-                                <a href="#" onClick={() => window.location.reload()} className="hover:underline">Home</a>
+                                <a onClick={() => setPage("home")} className="hover:underline bg-transparent border-none p-0 m-0 text-left">Home</a>
                             </li>
                             <li>
-                                <a href="#" onClick={() => window.dispatchEvent(new CustomEvent('navigate', { detail: 'about' }))} className="hover:underline">About</a>
+                                <a onClick={() => setPage("about")} className="hover:underline bg-transparent border-none p-0 m-0 text-left">About</a>
                             </li>
                             <li>
-                                <a href="#" onClick={() => window.dispatchEvent(new CustomEvent('navigate', { detail: 'contact' }))} className="hover:underline">Contact</a>
+                                <a onClick={() => setPage("contact")} className="hover:underline bg-transparent border-none p-0 m-0 text-left">Contact</a>
                             </li>
                         </ul>
                     </div>
