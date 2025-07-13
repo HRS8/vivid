@@ -10,7 +10,7 @@ function Hero() {
                 className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 flex items-center justify-center lg:justify-start">
-                <h1 className="text-3xl md:text-5xl font-bold text-amber-200 md:text-amber-200 text-center lg:text-left px-4 lg:ml-24">
+                <h1 className="text-3xl md:text-5xl font-bold text-amber-500 md:text-amber-500 text-center lg:text-left px-4 lg:ml-24">
                     <span className="excur lg:text-9xl">Interiors </span><span className="excur lg:text-7xl">that</span><br/><span className="excur lg:text-[180px]">Inspire</span>
                 </h1>
             </div>
