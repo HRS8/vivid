@@ -14,7 +14,7 @@ import thirteen from "./13.jpg";
 function Gallery() {
     return (
         <div className="w-full overflow-x-hidden">
-            <div className="pt-8 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-xl mx-auto">
+            <div className="pt-6 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-screen-xl mx-auto">
                 <div className="grid gap-4">
                     <div>
                         <img className="h-auto max-w-full rounded-lg" src={two} alt="" />
